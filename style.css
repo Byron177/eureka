@@ -1,0 +1,121 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+
+    background-color:#ff7f07;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   justify-content: center;
+    min-height: 100vh;
+}
+
+.card-container{
+background-color: #ffffff;
+border-radius: 15px;
+box-shadow: 0px 0px 20px 0px #ffffff;
+color: rgb(0, 0, 0);
+padding-top: 15px;
+position: relative;
+max-width: 400px;
+text-align: center;
+}
+
+.card-container   .card-img{
+width: 170px;
+margin: auto;
+
+}
+
+.card-container  .card-img .round{
+
+border: 1px solid #0000;
+
+}
+
+.card-container h3{
+
+    margin: 10px 0;
+}
+
+.card-container h6{
+
+    margin: 7px 0;
+    text-transform: uppercase;
+}
+
+
+.card-container p{
+
+font-size: 14px;
+line-height: 21px;
+}
+
+.card-container .buttons{
+
+    margin-top: 15px;
+}
+
+.card-container .buttons .btn{
+
+    background-color: rgb(255, 187, 0);
+    border: 1px solid rgb(255, 187, 0);
+    outline: none;
+    border-radius: 3px;
+    color: black;
+    font-weight: 500;
+    padding: 10px 24px;
+}
+
+.card-container .buttons .btn.ghost{
+
+background-color: transparent;
+color: #ff9100;
+}
+
+.card-container .skills{
+background-color: #ffffff;
+text-align: left;
+padding: 15px;
+margin-top: 15px;
+}
+
+
+.card-container .skills h4{
+
+    margin-bottom: 15px;
+}
+
+
+.card-container .skills ul{
+list-style: none;
+
+}
+
+
+.card-container .skills ul li{
+border: 1px solid #000000;
+border-radius: 2px;
+display: inline-block;
+font-size: 12px;
+margin: 0 7px 7px 0;
+padding: 7px;
+}
+
+.card-container .skills .medias-socias{
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-container .skills .medias-socias a{
+
+    text-decoration: none;
+    padding: 3px;
+}
